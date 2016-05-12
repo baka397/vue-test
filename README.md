@@ -5,7 +5,7 @@ React-test
 
 这是一个迁移自[react-test](https://github.com/baka397/react-test)的vue示例项目  
 该demo展示了异步登录,页面检测登录自动跳转,不同页面渲染等相关操作.  
-redux+revue作为状态管理,vue-router作为路由  
+redux+revue作为状态管理,vue-router作为路由,使用vue-loader编译`*.vue`组件  
 须安装[webpack](https://github.com/webpack/webpack),[redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension)
 
 ## 目录结构
@@ -21,7 +21,7 @@ app.js                   //express应用程序
 --store.js              //状态管理文件
 ---actions            //redux action列表
 ---reducers          //redux reducer列表
----components    //react组件
+---components    //vue组件
 ---pages              //页面组件
 ```
 
