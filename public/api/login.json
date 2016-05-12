@@ -1,0 +1,10 @@
+{
+	"head":{
+		"status":200,
+		"msg":"登录成功"
+	},
+	"body":{
+		"name":"test",
+		"role":"管理员"	
+	}
+}

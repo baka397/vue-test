@@ -1,0 +1,35 @@
+{
+  "name": "vue-test",
+  "version": "1.0.0",
+  "description": "vue test",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "bakajinsei",
+  "license": "ISC",
+  "dependencies": {
+    "ejs-mate": "^2.3.0",
+    "express": "~4.11.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.8.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-runtime": "^6.6.1",
+    "css-loader": "^0.23.1",
+    "isomorphic-fetch": "^2.2.1",
+    "redux": "^3.3.1",
+    "redux-thunk": "^1.0.3",
+    "revue": "^2.1.3",
+    "vue-hot-reload-api": "^1.3.2",
+    "vue-html-loader": "^1.2.2",
+    "vue-loader": "^8.3.1",
+    "vue-router": "^0.7.13",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.12.13"
+  }
+}
